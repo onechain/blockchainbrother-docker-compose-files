@@ -1,0 +1,57 @@
+
+  Usage: gitbook [options] [command]
+
+
+  Options:
+
+    -v, --gitbook [version]  specify GitBook version to use
+    -d, --debug              enable verbose error
+    -V, --version            Display running versions of gitbook and gitbook-cli
+    -h, --help               output usage information
+
+
+  Commands:
+
+    ls                        List versions installed locally
+    current                   Display currently activated version
+    ls-remote                 List remote versions available for install
+    fetch [version]           Download and install a <version>
+    alias [folder] [version]  Set an alias named <version> pointing to <folder>
+    uninstall [version]       Uninstall a version
+    update [tag]              Update to the latest version of GitBook
+    help                      List commands for GitBook
+    *                         run a command with a specific gitbook version
+logging to /home/shouhewu/.config/gitbook-editor/log-app.log
+[2017-07-17T09:03:32.763Z] [library] info: preparing library on /home/shouhewu/GitBook/Library
+start logging to the disk
+[2017-07-17T09:03:32.888Z] [uhub] info: starting uhub
+[2017-07-17T09:03:32.889Z] [uhub] info: extracting uhub to /tmp/1500282212889-uhub
+[2017-07-17T09:03:32.935Z] [uhub] info: uhub is extracted
+[2017-07-17T09:03:32.941Z] [uhub] info: find port 44244
+[2017-07-17T09:03:32.942Z] [uhub] info: spawning uhub with port 44244
+[2017-07-17T09:03:32.959Z] [uhub] info: stderr: 2017/07/17 17:03:32 Listening on 127.0.0.1:44244
+
+[2017-07-17T09:03:34.953Z] [uhub] info: uhub has been started
+[2017-07-17T09:03:34.954Z] [main] info: start api
+[2017-07-17T09:03:34.954Z] [main] info: load account
+[2017-07-17T09:03:34.957Z] [account] info: authenticate with access token
+[2017-07-17T09:03:34.975Z] [main] info: open window
+[2017-07-17T09:03:35.011Z] [main] info: search for updates
+[2017-07-17T09:03:37.036Z] [updater] info: internet connection is false
+[2017-07-17T09:03:43.404Z] [uhub] info: cloning https://git.gitbook.com/gcc2ge/ethereum.git
+[2017-07-17T09:03:43.417Z] [uhub] info: stdout: Creating repo _/L2hvbWUvc2hvdWhld3UvR2l0Qm9vay9MaWJyYXJ5L2djYzJnZS9ldGhlcmV1bQ==: {Name:_/L2hvbWUvc2hvdWhld3UvR2l0Qm9vay9MaWJyYXJ5L2djYzJnZS9ldGhlcmV1bQ== Description: AutoInit:false GitignoreTemplate: LicenseTemplate: SendEvent:false GitTemplate:https://git.gitbook.com/gcc2ge/ethereum.git NonBare:true KeepRemote:true Auth:0xc4202ca1e0}
+
+[2017-07-17T09:04:02.828Z] [editor] info: Opening editor on /home/shouhewu/GitBook/Library/gcc2ge/ethereum
+[2017-07-17T09:04:22.747Z] [editor] info: Opening editor on /home/shouhewu/GitBook/Library/robertfeng1980/blockchain-practice-up1
+window has been closed /home/shouhewu/GitBook/Library/gcc2ge/ethereum
+window has been closed /home/shouhewu/GitBook/Library/robertfeng1980/blockchain-practice-up1
+[2017-07-17T09:11:26.807Z] [uhub] info: killing uhub
+[2017-07-17T09:11:26.809Z] [uhub] info: removing uhub
+window has been closed main
+[2017-07-17T09:11:26.827Z] [uhub] info: uhub exited with code null
+[2017-07-17T09:11:26.827Z] [uhub] error: error with uhub process: Error: uhub exited with code null
+    at ChildProcess.<anonymous> (/opt/gitbook-editor/resources/app.asar/main/index.js:29:1802)
+    at emitTwo (events.js:111:20)
+    at ChildProcess.emit (events.js:191:7)
+    at maybeClose (internal/child_process.js:877:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
